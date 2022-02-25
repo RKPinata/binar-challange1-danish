@@ -1,0 +1,38 @@
+/*--------- 
+CSS RESET
+---------- */
+
+*,
+*::before,
+*::after {
+  font-family: Helvetica, sans-serif;
+  /* border: 0.5px solid black; */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+button {
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 8px 12px;
+  background-color: var(--secondary);
+  border-style: none;
+  border-radius: 2px;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+li {
+  font-size: small;
+}

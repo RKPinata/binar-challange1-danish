@@ -1,0 +1,12 @@
+:root {
+  --primary: #0d28a6;
+  --secondary: #5cb85f;
+}
+/*----
+ACTION
+------*/
+
+.action__container {
+  background-color: var(--primary);
+  border-radius: 12px;
+}

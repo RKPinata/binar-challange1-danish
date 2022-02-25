@@ -1,0 +1,65 @@
+:root {
+  --primary: #0d28a6;
+  --secondary: #5cb85f;
+}
+/*----
+NAVBAR
+------*/
+
+.navbar__logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  background-color: #0d28a6;
+  width: 100px;
+  height: 34px;
+}
+
+.navbar__link {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* margin-top: 8px;
+  margin-bottom: 8px; */
+}
+.navbar__link-item {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: black;
+  margin: 8px 8px;
+}
+
+.navbar__button-container {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
+
+.navbar__button {
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 8px 12px;
+  background-color: var(--secondary);
+  border-style: none;
+  border-radius: 2px;
+}
+
+@media (min-width: 576px) {
+  .navbar__button-container {
+    display: flex;
+    justify-content: center;
+    width: inherit;
+    margin: 0px 8px;
+  }
+}
+
+a {
+  color: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+}
